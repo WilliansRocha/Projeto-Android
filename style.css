@@ -37,7 +37,6 @@ header{
     background-color: var(--cor5);
     background-image: linear-gradient(to bottom, var(--cor03), var(--cor5) );
     margin: 0px;
-    height: 15%;
     padding-top: 30px;
 }
 header > h1{
@@ -51,16 +50,15 @@ header > h1{
 header > p{
     color: white;
     margin: 0px;
-    padding: 5px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.397);
     text-align: center;    
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
-    max-width: 500px; /*Limitou o tamanho do parágrafo em 500 px, colocou margin auto para centralizar e colocou padding da direita e esquerda para a escrita não colar nos cantos quando for diminuindo*/
+    max-width: 600px; /*Limitou o tamanho do parágrafo em 500 px, colocou margin auto para centralizar e colocou padding da direita e esquerda para a escrita não colar nos cantos quando for diminuindo*/
     margin: auto;
     padding-right: 10px;
     padding-left: 10px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 header > a:hover{
     color: black;
