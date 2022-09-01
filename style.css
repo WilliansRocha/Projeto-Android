@@ -26,6 +26,7 @@
 body{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
+    margin: auto;
 }
 a.externo::after{
     content: '\0020\1F517'; /*Colocar o emoji apos todos os links com class externo*/
@@ -96,6 +97,10 @@ main{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    text-align: justify;
+}
+main img{
+    margin: auto;
 }
 main p{
     text-indent: 30px;
@@ -139,9 +144,9 @@ main a:hover{
 }
 main > article{
     background-color: white; 
-    text-align: center;
     max-width: 1000px;
-   
+    text-align: center;
+    max-width: 100%;
 }
 main > article > h1{
     font-size: 2em;
