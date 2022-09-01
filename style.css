@@ -150,6 +150,7 @@ main > article{
 }
 main img{
     max-width: 90%;
+    margin: auto;
 }
 main > article > h1{
     font-size: 2em;
